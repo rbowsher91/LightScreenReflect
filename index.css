@@ -1,0 +1,63 @@
+body {
+    position: relative;
+    background-image: url("Saffron_City_RBY.png");
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% transparency */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    font-family: 'Pixelify Sans';
+    font-weight: bold;
+    text-align: center;
+    padding: 20px
+}
+
+h1 {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    border-radius: 20px
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#intro {
+    padding: 30px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+}
+
+#save-el {
+    font-size: 20px
+}
